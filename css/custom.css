@@ -1,0 +1,74 @@
+body {
+    padding-top: 50px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+	text-align: center;
+    background-color: lightskyblue;
+}
+
+.footer-blurb h3 {
+    color: midnightblue;
+    }
+    
+.footer-blurb-item {
+    padding: 30px 0;
+    }
+ 
+.copyright {
+	background-color: #fff;
+	text-align: center;
+	padding: 30px 0;
+}
+
+table { 
+    text-align: center; color:white;
+
+}
+
+/* Media Queries */
+
+@media(max-width:700px) {
+    .alastair{
+        width: 90%;
+    }
+}
+
+@media(max-width:1250px) {
+    .science{
+        width: 90%;
+    }
+}
+
+.image {
+    padding-top: 3%;
+}
+
+.center{
+    display: block;
+    text-align: center;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+
+.form{
+    display: block;
+    text-align: center;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 360px;
+    padding: 10px;
+    background-color: #00b3dd;
+    border-radius: 15px;
+
+}
+
+h4{text-align: center}
